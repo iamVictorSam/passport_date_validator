@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Recorder is needed for Camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Library is needed for image selection</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Camera of image snapping </string>
 </dict>
 </plist>
