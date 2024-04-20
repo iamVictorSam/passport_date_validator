@@ -27,7 +27,13 @@ class _HomeScreenState extends State<HomeScreen> {
           children: [
             selectedImage != null
                 ? Image.file(selectedImage)
-                : const Placeholder(),
+                : Container(
+                    height: 300,
+                    width: MediaQuery.of(context).size.width,
+                    decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(10),
+                        color: Colors.white30),
+                  ),
             const SizedBox(
               height: 20,
             ),
